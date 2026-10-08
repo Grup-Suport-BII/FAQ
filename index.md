@@ -1,4 +1,4 @@
-# Ghid FAQ – Informații Utile din Grupul de Suport BII
+# Informații Utile din Grupul de Suport BII
 ## Boala Crohn și Colită Ulcerativă
 
 > **Notă:** Acest ghid sintetizează informațiile, sfaturile medicale de bază și experiențele practice împărtășite de pacienți în cadrul grupului de suport. Informațiile au caracter informativ și nu înlocuiesc consultația unui medic gastroenterolog.
