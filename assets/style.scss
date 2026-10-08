@@ -1,0 +1,438 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ==========================================================================
+   Ghid FAQ BII - Minimalist Stylesheet
+   Focus on readability, refined typography, and clean layout
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-primary: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --color-text: #334155;         /* Slate 700 */
+  --color-text-muted: #64748b;   /* Slate 500 */
+  --color-text-heading: #0f172a; /* Slate 900 */
+  --color-accent: #0284c7;       /* Medical blue */
+  --color-accent-hover: #0369a1;
+  --color-bg-page: #f8fafc;
+  --color-bg-card: #ffffff;
+  --color-border: #e2e8f0;
+  --color-border-subtle: #f1f5f9;
+}
+
+/* --------------------------------------------------------------------------
+   Global & Layout Setup
+   -------------------------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 24px;
+}
+
+body {
+  font-family: var(--font-primary) !important;
+  color: var(--color-text);
+  background-color: var(--color-bg-page);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --------------------------------------------------------------------------
+   Markdown Container
+   -------------------------------------------------------------------------- */
+.markdown-body {
+  font-family: var(--font-primary) !important;
+  max-width: 860px !important;
+  margin: 32px auto 60px auto !important;
+  background: var(--color-bg-card) !important;
+  border-radius: 12px !important;
+  border: 1px solid var(--color-border) !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 6px 16px -4px rgba(15, 23, 42, 0.02) !important;
+  padding: 48px 56px !important;
+  font-size: 15.5px;
+  line-height: 1.75;
+}
+
+/* Hide default primer H1 site title */
+h1:not([id]) {
+  display: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   Document Header & Subtitle
+   -------------------------------------------------------------------------- */
+h1#ghid-faq--informații-utile-din-grupul-de-suport-bii {
+  font-size: 1.95rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  line-height: 1.3 !important;
+  color: var(--color-text-heading) !important;
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+h2#boala-crohn-și-colită-ulcerativă {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: var(--color-text-muted) !important;
+  border-bottom: none !important;
+  margin-top: 0 !important;
+  margin-bottom: 24px !important;
+  padding: 0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   Medical Disclaimer / Note Callout
+   -------------------------------------------------------------------------- */
+.markdown-body blockquote {
+  background: #f8fafc !important;
+  border-left: 3px solid var(--color-accent) !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-radius: 0 6px 6px 0 !important;
+  padding: 14px 18px !important;
+  margin: 20px 0 28px 0 !important;
+  color: var(--color-text-muted) !important;
+
+  p {
+    margin: 0 !important;
+    font-size: 0.93rem !important;
+    line-height: 1.65 !important;
+  }
+
+  strong {
+    color: var(--color-text-heading) !important;
+    font-weight: 600 !important;
+  }
+}
+
+/* Dividers */
+.markdown-body hr {
+  height: 1px !important;
+  background: var(--color-border) !important;
+  border: none !important;
+  margin: 36px 0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   Cuprins (Minimalist Table of Contents)
+   -------------------------------------------------------------------------- */
+h2#cuprins {
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  color: var(--color-text-muted) !important;
+  border-bottom: none !important;
+  margin-top: 28px !important;
+  margin-bottom: 12px !important;
+  padding: 0 !important;
+}
+
+h2#cuprins + ol {
+  list-style: none !important;
+  counter-reset: toc-counter;
+  padding-left: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 6px;
+  margin-bottom: 32px !important;
+
+  > li {
+    counter-increment: toc-counter;
+    background: transparent;
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 6px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: baseline;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+    margin-top: 0 !important;
+
+    &::before {
+      content: counter(toc-counter, decimal-leading-zero);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-text-muted);
+      margin-right: 10px;
+      font-variant-numeric: tabular-nums;
+      flex-shrink: 0;
+    }
+
+    > a {
+      color: var(--color-text) !important;
+      font-weight: 500 !important;
+      font-size: 0.91rem !important;
+      text-decoration: none !important;
+      border-bottom: none !important;
+      flex: 1;
+      line-height: 1.4;
+      transition: color 0.15s ease;
+    }
+
+    &:hover {
+      background: var(--color-bg-page);
+      border-color: var(--color-border);
+
+      &::before {
+        color: var(--color-accent);
+      }
+
+      > a {
+        color: var(--color-accent) !important;
+      }
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Category Sections (H2: 1. Medicamente..., 2. Sănătatea...)
+   -------------------------------------------------------------------------- */
+.markdown-body h2:not(#cuprins):not(#boala-crohn-și-colită-ulcerativă) {
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--color-text-heading) !important;
+  background: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  border-radius: 0 !important;
+  padding: 0 0 8px 0 !important;
+  margin-top: 48px !important;
+  margin-bottom: 20px !important;
+  box-shadow: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   FAQ Questions (H3: Q1, Q2, Q3...)
+   -------------------------------------------------------------------------- */
+.markdown-body h3[id^="q"] {
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+  color: var(--color-text-heading) !important;
+  background: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left: 2px solid var(--color-border) !important;
+  border-radius: 0 !important;
+  padding: 2px 0 2px 12px !important;
+  margin-top: 28px !important;
+  margin-bottom: 12px !important;
+  box-shadow: none !important;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-left-color: var(--color-accent) !important;
+    transform: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Content, Lists & Typography
+   -------------------------------------------------------------------------- */
+.markdown-body p {
+  color: var(--color-text);
+  margin-top: 0;
+  margin-bottom: 14px;
+  line-height: 1.7;
+}
+
+.markdown-body ul, 
+.markdown-body ol {
+  padding-left: 20px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+
+  li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    line-height: 1.65;
+  }
+}
+
+/* Nested lists: clean indentation with light left border */
+.markdown-body ul ul, 
+.markdown-body ol ul {
+  background: none !important;
+  border: none !important;
+  border-left: 1px solid var(--color-border) !important;
+  border-radius: 0 !important;
+  padding: 4px 0 4px 16px !important;
+  margin-top: 6px !important;
+  margin-bottom: 8px !important;
+
+  li {
+    font-size: 0.94rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+}
+
+.markdown-body strong {
+  color: var(--color-text-heading);
+  font-weight: 600;
+}
+
+/* Links */
+.markdown-body a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+/* AnchorJS links */
+.markdown-body .anchorjs-link {
+  color: var(--color-text-muted) !important;
+  text-decoration: none !important;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.markdown-body h1:hover .anchorjs-link,
+.markdown-body h2:hover .anchorjs-link,
+.markdown-body h3:hover .anchorjs-link {
+  opacity: 0.6;
+}
+
+.markdown-body .anchorjs-link:hover {
+  opacity: 1 !important;
+  color: var(--color-accent) !important;
+}
+
+/* Code */
+.markdown-body code {
+  background-color: var(--color-border-subtle);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 0.88em;
+  color: var(--color-text-heading);
+}
+
+/* --------------------------------------------------------------------------
+   Responsive Design
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .markdown-body {
+    padding: 24px 18px !important;
+    margin: 12px auto 32px auto !important;
+    border-radius: 8px !important;
+    font-size: 15px;
+  }
+
+  h1#ghid-faq--informații-utile-din-grupul-de-suport-bii {
+    font-size: 1.55rem !important;
+  }
+
+  h2#cuprins + ol {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .markdown-body h2:not(#cuprins):not(#boala-crohn-și-colită-ulcerativă) {
+    font-size: 1.2rem !important;
+    margin-top: 36px !important;
+  }
+
+  .markdown-body h3[id^="q"] {
+    font-size: 1rem !important;
+    margin-top: 22px !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Dark Mode Support
+   -------------------------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #cbd5e1;
+    --color-text-muted: #94a3b8;
+    --color-text-heading: #f8fafc;
+    --color-accent: #38bdf8;
+    --color-accent-hover: #7dd3fc;
+    --color-bg-page: #0f172a;
+    --color-bg-card: #1e293b;
+    --color-border: #334155;
+    --color-border-subtle: #1e293b;
+  }
+
+  body {
+    background-color: var(--color-bg-page);
+    color: var(--color-text);
+  }
+
+  .markdown-body {
+    background: var(--color-bg-card) !important;
+    border-color: var(--color-border) !important;
+    box-shadow: none !important;
+  }
+
+  .markdown-body blockquote {
+    background: #172554 !important;
+    border-left-color: var(--color-accent) !important;
+    color: #cbd5e1 !important;
+  }
+
+  h2#cuprins + ol > li {
+    border-color: #334155;
+
+    > a {
+      color: var(--color-text) !important;
+    }
+
+    &:hover {
+      background: #273549;
+      border-color: #475569;
+
+      > a {
+        color: var(--color-accent) !important;
+      }
+    }
+  }
+
+  .markdown-body code {
+    background-color: #0f172a;
+    border-color: #334155;
+    color: var(--color-accent);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Print
+   -------------------------------------------------------------------------- */
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+
+  .markdown-body {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  h2#cuprins + ol {
+    display: block !important;
+  }
+}
