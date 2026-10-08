@@ -80,7 +80,11 @@
 ### Q10: Ce diete speciale sunt utilizate în BII?
 * **CDED (Crohn's Disease Exclusion Diet):** Dietă de eliminare pe faze pentru boala Crohn, combinată adesea cu nutriție enterală (Modulen IBD).
 * **SCD (Specific Carbohydrate Diet):** Limitează carbohidrații complecși (cereale, amidon, zahăr rafinat); este restrictivă, necesită atenție la menținerea greutății și nu este recomandată decât la indicația medicului.
+  * [Rețete SCD](https://www.everylastbite.com/by-diet/specific-carbohydrate-diet/)
 * **IBD-AID:** Dietă antiinflamatorie structurată pe faze/texturi, bazată pe modificarea florei și eliminarea lactozei, grâului și porumbului în fazele acute.
+  * [Despre dieta antiinflamatoare](https://www.umassmed.edu/nutrition/ibd/ibdaid/)
+  * [Etapele dietei antiinflamatorii](https://www.umassmed.edu/nutrition/ibd/ibd-aid-phases/)
+  * [Exemple de meniuri zilnice pentru fiecare etapă](https://www.umassmed.edu/nutrition/ibd/sample-daily-menus-for-each-phase/)
 * **Low-FODMAP:** Dietă pe termen scurt pentru reducerea balonării și gazelor (utilă în caz de Sindrom de Intestin Iritabil asociat).
 * **Dieta Mediteraneană Adaptată:** Excelentă pe termen lung **în remisie** (ulei de măsline, pește, legume gătite), dar **contraindicată în puseu** din cauza fibrelor crude.
 
