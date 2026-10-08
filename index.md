@@ -39,9 +39,15 @@
 
 ### Q4: Cum funcționează imunosupresoarele și terapiile biologice?
 * **Imunosupresoarele (Imuran / Azatioprină, Metotrexat):** Modulează răspunsul imunitar și previn formarea de anticorpi împotriva biologicelor. *Precauție:* Necesită evitarea expunerii directe la soare/UV.
-* **Terapiile Biologice și Inhibitorii JAK:** Infliximab (Remicade), Vedolizumab (Entyvio), Ustekinumab (Stelara), Risankizumab (Skyrizi), Upadacitinib (Rinvoq), Adalimumab (Humira/Hukyndra). Se administrează perfuzabil (PEV) sau subcutanat (pen-uri/injectomate).
-* Scopul lor este obținerea **remisiei clinice și endoscopice** (vindecarea mucoasei). Trecerea de la un biologic la altul se face la pierderea răspunsului sau la apariția anticorpilor, iar efectul noului biologic poate dura între câteva săptămâni și 3–6 luni (sau chiar până la 1 an).
-* **Regulă strictă pe biologic:** Sunt **interzise vaccinurile cu virus viu atenuat**.
+* **Terapiile Biologice și Inhibitorii JAK:**
+  * **Infliximab** (*Original:* Remicade | *Biosimilare:* Remsima, Inflectra, Flixabi, Zessly) — perfuzabil (PEV) sau subcutanat (Remsima SC).
+  * **Adalimumab** (*Original:* Humira | *Biosimilare:* Hukyndra, Amgevita, Hyrimoz, Imraldi, Idacio, Hulio, Yuflyma) — subcutanat (pen / seringă preumplută).
+  * **Ustekinumab** (*Original:* Stelara | *Biosimilare:* Uzpruvo, Wezenla, Steqeyma, Pyzchiva) — perfuzabil (PEV - inducție) sau subcutanat (întreținere).
+  * **Vedolizumab** (*Original:* Entyvio | *Biosimilare:* fără biosimilare disponibile) — perfuzabil (PEV) sau subcutanat.
+  * **Risankizumab** (*Original:* Skyrizi | *Biosimilare:* fără biosimilare disponibile) — perfuzabil (PEV - inducție) sau subcutanat (on-body injector).
+  * **Upadacitinib** (*Original:* Rinvoq | *Inhibitor JAK - moleculă mică / fără generice disponibile*) — administrare orală (comprimate).
+* Scopul lor este obținerea **remisiei clinice și endoscopice** (vindecarea mucoasei). Trecerea de la un biologic la altul se face la pierderea răspunsului sau la apariția anticorpilor, iar instalarea efectului noului biologic poate dura între câteva săptămâni și 3–6 luni (sau chiar până la 1 an).
+* **Atenție majoră:** Nu se administrează **vaccinuri cu virus viu atenuat** în timpul terapiei biologice.
 
 ---
 
@@ -73,29 +79,28 @@
 
 ### Q10: Ce diete speciale sunt utilizate în BII?
 * **CDED (Crohn's Disease Exclusion Diet):** Dietă de eliminare pe faze pentru boala Crohn, combinată adesea cu nutriție enterală (Modulen IBD).
-* **SCD (Specific Carbohydrate Diet):** Limitează carbohidrații complecși (cereale, amidon, zahăr rafinat); este restrictivă și necesită atenție la menținerea greutății.
+* **SCD (Specific Carbohydrate Diet):** Limitează carbohidrații complecși (cereale, amidon, zahăr rafinat); este restrictivă, necesită atenție la menținerea greutății și nu este recomandată decât la indicația medicului.
 * **IBD-AID:** Dietă antiinflamatorie structurată pe faze/texturi, bazată pe modificarea florei și eliminarea lactozei, grâului și porumbului în fazele acute.
 * **Low-FODMAP:** Dietă pe termen scurt pentru reducerea balonării și gazelor (utilă în caz de Sindrom de Intestin Iritabil asociat).
 * **Dieta Mediteraneană Adaptată:** Excelentă pe termen lung **în remisie** (ulei de măsline, pește, legume gătite), dar **contraindicată în puseu** din cauza fibrelor crude.
 
 ### Q11: Cum consumăm corect nucile, pâinea și lactatele?
-* **Nuci și semințe:** Se consumă **exclusiv după ce au fost lăsate la hidratat** în apă (sau sub formă de unturi de nuci).
-* **Pâine:** Pâinea albă din comerț poate irita; se recomandă **pâinea cu maia făcută în casă**.
-* **Lactate:** Intoleranța la lactoză este frecventă. Se recomandă produse fără lactoză sau lactate fermentate bine tolerate (chefir, iaurt de casă, brânzeturi maturate).
-* **Combinație antiinflamatoare benefică:** Afine proaspete + chefir/iaurt (antocianinele din afine hrănesc bacteriile benefice din chefir).
-* **Modulen IBD:** Formulă enterală specială pentru BII, utilă pentru obținerea remisiei și creșterea în greutate.
-* **Supa de oase (bone broth):** Sursă naturală excelentă de colagen pentru refacerea mucoasei (fiertă 12-15 ore la foc mic).
+* **Nuci și semințe:** Se consumă **exclusiv hidratate** în apă timp de câteva ore sau măcinate fin (unturi/paste de nuci), pentru a reduce textura abrazivă și a ușura digestia.
+* **Pâine:** Se evită pâinea albă ultraprocesată din comerț; se recomandă **pâinea cu maia făcută în casă**, fermentată lent, mult mai ușor de tolerat.
+* **Lactate:** Intoleranța la lactoză este frecventă. Se preferă variantele fără lactoză sau lactatele fermentate (chefir, iaurt de casă, brânzeturi maturate). *Opțional:* combinarea chefirului/iaurtului cu afine aduce un plus de compuși antiinflamatori și susține microbiota.
 
 ---
 
 ## 4. Suplimente, Vitamine și Probiotice
 
 ### Q12: Cum se administrează corect Vitamina D3 în BII?
-* Vitamina D3 este un imunomodulator esențial; nivelul seric se verifică la 6–12 luni (nivel țintă optim în BII: 60–80 ng/mL).
-* **Regula de aur:** Vitamina D3 se administrează **întotdeauna împreună cu Vitamina K2 (MK7)** și **Magneziu Bisglicinat**! Fără K2, calciul se poate depune pe artere și organe; fără magneziu bisglicinat, D3 nu se asimilează corespunzător. Magneziul bisglicinat este forma cea mai bine tolerată digestiv.
+* **Nivel țintă:** Se monitorizează prin analize la fiecare 6–12 luni (interval optim recomandat în BII: 60–80 ng/mL).
+* **Asocierea obligatorie cu K2:** Se ia împreună cu Vitamina K2 (MK7), pentru a direcționa calciul absorbit în oase și a preveni depunerea pe artere.
+* **Cofactorul esențial (Magneziul):** Corpul are nevoie de magneziu pentru a activa Vitamina D3. Se recomandă o formă blândă cu intestinul, precum **magneziul bisglicinat**, pentru a evita efectul laxativ.
 
 ### Q13: Ce probiotice și suplimente ajută mucoasa intestinală?
-* **Probiotice/Prebiotice:** VSL#3, Vivomixx, MegasporeBiotic, Equbiota, Eubiotic Forte, Eridiarom (supliment pe bază de afine, eficient în diaree). Se pot lua dimineața pe stomacul gol sau în timpul mesei/seara, rotindu-se la câteva luni.
+* **Probiotice/Prebiotice:** VSL#3, Vivomixx, MegaSporeBiotic, Equbiota, Eubiotic Forte. Se administrează conform prospectului (dimineața pe stomacul gol sau la masă/seara) și se recomandă rotirea tulpinilor la câteva luni.
+* **Fitoterapie antidiareică:** Eridiarom (concentrat natural pe bază de afine, util pentru reducerea episoadelor diareice prin efect astringent).
 * **Butirat / Butirin (Intesta, Dibuzin):** Acid gras ce hrănește colonocitele, reduce inflamația și ajută la legarea scaunului.
 * **L-Glutamină:** Ajută la repararea barierei intestinale și scade permeabilitatea mucoasei (se ia cu ~20 min înainte de masă).
 * **Colagen:** Pudră de colagen pur hidrolizat fără arome/îndulcitori artificiali sau supă de oase.
@@ -105,13 +110,13 @@
 ## 5. Analize, Investigații și Diagnostic
 
 ### Q14: Ce este Calprotectina Fecală și cum trebuie interpretată?
-* Principalul marker de inflamație intestinală (valoare normală: < 50 µg/g sau < 70 µg/g). Valori de sute/mii indică inflamație activă.
-* *Important:* Calprotectina poate crește și din cauze non-BII: infecții bacteriene (Clostridium difficile, Yersinia, Aeromonas), diverticulită, consum de AINS (Nurofen, Aspirină). Se recomandă repetarea analizei la același laborator (ex. Bioclinica).
+* Principalul marker de inflamație intestinală (valoare normală: < 50 µg/g). Valorile care depășesc considerabil acest prag semnalează un puseu activ.
+* *Important:* Calprotectina poate crește și din cauze non-BII: infecții bacteriene (Clostridium difficile, Yersinia, Aeromonas), diverticulită, consum de AINS (Nurofen, Aspirină). Se recomandă repetarea analizei la același laborator (ex. Bioclinica), pentru compararea precisă cu valorile anterioare.
 
 ### Q15: De ce este esențială colonoscopia cu biopsie?
-* **Biopsia** preluată în timpul colonoscopiei/endoscopiei este singura care confirmă diagnosticul cert de BII.
+* **Biopsia:** Confirmă diagnosticul cert și diferențiază Crohn (inflamație transmurală, discontinuitate, granuloame) de colita ulcerativă (inflamație superficială, continuă, distorsiuni criptice).
 * Se recomandă colonoscopia cu **sedare profundă** pentru confort și evitarea traumelor.
-* **Pregătirea (Fortrans, Clensia, Picoprep):** Este crucială pentru o vizualizare clară a mucoasei (scor Boston bun).
+* **Pregătirea colonului:** Se preferă soluțiile izoosmolare pe bază de PEG (Fortrans, Clensia) în locul celor hiperosmolare sau stimulente (Picoprep, Eziclen, Plenvu), care pot provoca ulcerații aftoide chimice sau eritem fals-pozitiv.
 
 ---
 
@@ -126,11 +131,37 @@
 
 ## 7. Medici, Spitale și Drepturile Pacienților
 
-### Q17: Ce centre și medici specializați pe BII sunt menționați în grup?
-* **București:** Spitalul Colentina (Prof. Dr. Bogdan Mateescu, Dr. Liliana Dimitriu); IC Fundeni (Dr. Adriana-Corina Andrei, Dr. Cosmin Ciora, Dr. Cristian Gheorghe, Dr. Mădălina Ilie, Dr. Roxana Vădan); Imunomedica (Dr. Roxana Dinu); Spitalul Grigore Alexandrescu / Marie Curie / Gomoiu (pediatrie BII).
-* **Cluj-Napoca:** Clinica Prof. Dr. Marcel Tanțău, Dr. Mihaela Laszlo (Regina Maria - decontat CNAS), Gastromed.
-* **Iași:** Dr. Alexandru Coșeru (Arcadia), Prof. Dr. Cătălina Mihai.
-* **Timișoara:** Prof. Dr. Adrian Goldiș, Dr. Răzvan Diaconescu (Centrul BII Timișoara).
+### Q17: Care sunt principalele centre medicale de referință în BII din România?
+
+Managementul BII (inițiere biologice, dosare CNAS, intervenții chirurgicale complexe) se realizează cu precădere în marile centre universitare:
+
+* **București:**
+  * **Institutul Clinic Fundeni:** Centrul de Gastroenterologie și Hepatologie (cel mai mare volum de pacienți, laborator dedicat, chirurgie digestivă complexă).
+  * **Spitalul Universitar de Urgență București (SUUB):** Secția de Gastroenterologie.
+  * **Spitalul Clinic Colentina:** Secția de Gastroenterologie.
+  * **Spitalul Clinic de Urgență Floreasca:** Secția de Gastroenterologie și chirurgie de urgență.
+  * **Spitalul Militar Central (SUUMC):** Centrul de Gastroenterologie.
+  * **Spitalul Clinic „Sf. Maria”:** Secție clinică de gastroenterologie și chirurgie.
+
+* **Cluj-Napoca:**
+  * **Institutul Regional de Gastroenterologie și Hepatologie „Prof. Dr. Octavian Fodor” (Medicală III):** Centru național de referință pentru patologia digestivă și BII.
+
+* **Iași:**
+  * **Institutul de Gastroenterologie și Hepatologie (Spitalul Clinic Județean de Urgență „Sf. Spiridon”):** Principalul pol de expertiză pentru zona Moldovei.
+
+* **Timișoara:**
+  * **Spitalul Clinic Județean de Urgență „Pius Brînzeu”:** Clinica de Gastroenterologie și Hepatologie.
+  * [https://www.bii-timisoara.ro/](https://www.bii-timisoara.ro/)
+
+* **Târgu Mureș:**
+  * **Spitalul Clinic Județean de Urgență Târgu Mureș:** Secția Clinică Gastroenterologie.
+
+* **Craiova:**
+  * **Centrul de Cercetare în Gastroenterologie și Hepatologie (SCJU Craiova):** Centru universitar de referință pentru sud-vestul țării.
+  * [https://ibd.umfcv.ro/](https://ibd.umfcv.ro/)
+
+* **Constanța:**
+  * **Spitalul Clinic Județean de Urgență Constanța:** Secția Clinică Gastroenterologie.
 
 ### Q18: Ce este Cardul „Nu pot aștepta!” și cum se obține?
 * Este un card de acces prioritar la toaletă în spații publice, magazine, hoteluri și terase pentru pacienții cu Boală Crohn și Colită Ulcerativă.
