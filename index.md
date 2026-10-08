@@ -40,14 +40,14 @@
 ### Q4: Cum funcționează imunosupresoarele și terapiile biologice?
 * **Imunosupresoarele (Imuran / Azatioprină, Metotrexat):** Modulează răspunsul imunitar și previn formarea de anticorpi împotriva biologicelor. *Precauție:* Necesită evitarea expunerii directe la soare/UV.
 * **Terapiile Biologice și Inhibitorii JAK:**
-  * **Infliximab** (*Original:* Remicade | *Biosimilare:* Remsima, Inflectra, Flixabi, Zessly) — perfuzabil (PEV) sau subcutanat (Remsima SC).
-  * **Adalimumab** (*Original:* Humira | *Biosimilare:* Hukyndra, Amgevita, Hyrimoz, Imraldi, Idacio, Hulio, Yuflyma) — subcutanat (pen / seringă preumplută).
-  * **Ustekinumab** (*Original:* Stelara | *Biosimilare:* Uzpruvo, Wezenla, Steqeyma, Pyzchiva) — perfuzabil (PEV - inducție) sau subcutanat (întreținere).
-  * **Vedolizumab** (*Original:* Entyvio | *Biosimilare:* fără biosimilare disponibile) — perfuzabil (PEV) sau subcutanat.
-  * **Risankizumab** (*Original:* Skyrizi | *Biosimilare:* fără biosimilare disponibile) — perfuzabil (PEV - inducție) sau subcutanat (on-body injector).
-  * **Upadacitinib** (*Original:* Rinvoq | *Inhibitor JAK - moleculă mică / fără generice disponibile*) — administrare orală (comprimate).
+  * **Infliximab** (*Original:* Remicade; *Biosimilare:* Remsima, Inflectra, Flixabi, Zessly) — perfuzabil (PEV) sau subcutanat (Remsima SC).
+  * **Adalimumab** (*Original:* Humira; *Biosimilare:* Hukyndra, Amgevita, Hyrimoz, Imraldi, Idacio, Hulio, Yuflyma) — subcutanat (pen / seringă preumplută).
+  * **Ustekinumab** (*Original:* Stelara; *Biosimilare:* Uzpruvo, Wezenla, Steqeyma, Pyzchiva) — perfuzabil (PEV - inducție) sau subcutanat (întreținere).
+  * **Vedolizumab** (*Original:* Entyvio; *Biosimilare:* fără biosimilare disponibile) — perfuzabil (PEV) sau subcutanat.
+  * **Risankizumab** (*Original:* Skyrizi; *Biosimilare:* fără biosimilare disponibile) — perfuzabil (PEV - inducție) sau subcutanat (on-body injector).
+  * **Upadacitinib** (*Original:* Rinvoq; *Inhibitor JAK - moleculă mică / fără generice disponibile*) — administrare orală (comprimate).
 * Scopul lor este obținerea **remisiei clinice și endoscopice** (vindecarea mucoasei). Trecerea de la un biologic la altul se face la pierderea răspunsului sau la apariția anticorpilor, iar instalarea efectului noului biologic poate dura între câteva săptămâni și 3–6 luni (sau chiar până la 1 an).
-* **Atenție majoră:** Nu se administrează **vaccinuri cu virus viu atenuat** în timpul terapiei biologice.
+* **Atenție la vaccinare:** Vaccinurile cu virus viu atenuat sunt **strict interzise**. Cele inactivate sunt permise, însă se administrează la distanță de doza de biologic (ideal la jumătatea intervalului dintre administrări), pentru eficiență maximă.
 
 ---
 
