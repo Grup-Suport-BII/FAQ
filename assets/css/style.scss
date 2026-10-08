@@ -1,4 +1,7 @@
---- --- @import "{{ site.theme }}";
+---
+---
+
+@import "{{ site.theme }}";
 
 /* ==========================================================================
    Ghid FAQ BII - Modern Custom Stylesheet
@@ -212,7 +215,7 @@ h2#cuprins {
 }
 
 /* The OL following #cuprins is rendered as an interactive card grid */
-h2#cuprins+ol {
+h2#cuprins + ol {
   list-style: none !important;
   counter-reset: toc-counter;
   padding-left: 0 !important;
@@ -221,7 +224,7 @@ h2#cuprins+ol {
   gap: 14px;
   margin-bottom: 40px !important;
 
-  >li {
+  > li {
     counter-increment: toc-counter;
     background: var(--color-slate-50);
     border: 1px solid var(--color-slate-200);
@@ -250,7 +253,7 @@ h2#cuprins+ol {
       box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
     }
 
-    >a {
+    > a {
       color: var(--color-slate-800) !important;
       font-weight: 600 !important;
       font-size: 0.95rem !important;
@@ -267,7 +270,7 @@ h2#cuprins+ol {
       transform: translateY(-2px);
       box-shadow: var(--card-hover-shadow);
 
-      >a {
+      > a {
         color: var(--color-primary) !important;
       }
     }
@@ -333,7 +336,7 @@ h2#cuprins+ol {
   line-height: 1.75;
 }
 
-.markdown-body ul,
+.markdown-body ul, 
 .markdown-body ol {
   padding-left: 24px;
   margin-top: 8px;
@@ -351,7 +354,7 @@ h2#cuprins+ol {
 }
 
 /* Nested lists (sub-details, examples) styled as clean inset boxes */
-.markdown-body ul ul,
+.markdown-body ul ul, 
 .markdown-body ol ul {
   background: var(--color-slate-50);
   border: 1px solid var(--color-slate-200);
@@ -451,7 +454,7 @@ h2#cuprins+ol {
     padding: 5px 12px !important;
   }
 
-  h2#cuprins+ol {
+  h2#cuprins + ol {
     grid-template-columns: 1fr;
     gap: 10px;
   }
@@ -469,7 +472,7 @@ h2#cuprins+ol {
     margin-top: 26px !important;
   }
 
-  .markdown-body ul ul,
+  .markdown-body ul ul, 
   .markdown-body ol ul {
     padding-left: 24px !important;
   }
@@ -529,11 +532,11 @@ h2#cuprins+ol {
     color: #f8fafc !important;
   }
 
-  h2#cuprins+ol>li {
+  h2#cuprins + ol > li {
     background: #1e293b;
     border-color: #334155;
 
-    >a {
+    > a {
       color: #f1f5f9 !important;
     }
 
@@ -541,7 +544,7 @@ h2#cuprins+ol {
       background: #243248;
       border-color: #38bdf8;
 
-      >a {
+      > a {
         color: #38bdf8 !important;
       }
     }
@@ -617,10 +620,10 @@ h2#cuprins+ol {
     max-width: 100% !important;
   }
 
-  h2#cuprins+ol {
+  h2#cuprins + ol {
     display: block !important;
 
-    >li {
+    > li {
       box-shadow: none !important;
       border: none !important;
       background: none !important;
