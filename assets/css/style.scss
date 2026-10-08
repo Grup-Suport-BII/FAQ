@@ -1,42 +1,27 @@
----
----
-
-@import "{{ site.theme }}";
+--- --- @import "{{ site.theme }}";
 
 /* ==========================================================================
-   Ghid FAQ BII - Modern Custom Stylesheet
-   Designed for readability, medical clarity, and modern aesthetics
+   Ghid FAQ BII - Minimalist Stylesheet
+   Focus on readability, refined typography, and clean layout
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 
 :root {
   --font-primary: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --color-primary: #0284c7;
-  --color-primary-hover: #0369a1;
-  --color-primary-light: #e0f2fe;
-  --color-primary-subtle: #f0f9ff;
-  --color-teal: #0d9488;
-  --color-teal-light: #ccfbf1;
-  --color-slate-900: #0f172a;
-  --color-slate-800: #1e293b;
-  --color-slate-700: #334155;
-  --color-slate-600: #475569;
-  --color-slate-500: #64748b;
-  --color-slate-200: #e2e8f0;
-  --color-slate-100: #f1f5f9;
-  --color-slate-50: #f8fafc;
-  --color-danger: #dc2626;
-  --color-danger-bg: #fef2f2;
-  --color-danger-border: #fecaca;
-  --color-success: #16a34a;
-  --color-success-bg: #f0fdf4;
-  --color-success-border: #bbf7d0;
-  --card-shadow: 0 12px 35px -8px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
-  --card-hover-shadow: 0 20px 35px -10px rgba(2, 132, 199, 0.15), 0 6px 16px -4px rgba(15, 23, 42, 0.05);
-  --radius-lg: 20px;
-  --radius-md: 12px;
-  --radius-sm: 8px;
+  --color-text: #334155;
+  /* Slate 700 */
+  --color-text-muted: #64748b;
+  /* Slate 500 */
+  --color-text-heading: #0f172a;
+  /* Slate 900 */
+  --color-accent: #0284c7;
+  /* Medical blue */
+  --color-accent-hover: #0369a1;
+  --color-bg-page: #f8fafc;
+  --color-bg-card: #ffffff;
+  --color-border: #e2e8f0;
+  --color-border-subtle: #f1f5f9;
 }
 
 /* --------------------------------------------------------------------------
@@ -44,13 +29,13 @@
    -------------------------------------------------------------------------- */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 32px;
+  scroll-padding-top: 24px;
 }
 
 body {
   font-family: var(--font-primary) !important;
-  color: var(--color-slate-700);
-  background: linear-gradient(180deg, #f0fdfa 0%, #f8fafc 380px, #f1f5f9 100%);
+  color: var(--color-text);
+  background-color: var(--color-bg-page);
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -59,219 +44,152 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Subtle top gradient accent line */
-body::before {
-  content: "";
-  display: block;
-  height: 5px;
-  width: 100%;
-  background: linear-gradient(90deg, #0284c7 0%, #0d9488 50%, #6366f1 100%);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
 /* --------------------------------------------------------------------------
-   Markdown Body Container
+   Markdown Container
    -------------------------------------------------------------------------- */
 .markdown-body {
   font-family: var(--font-primary) !important;
-  max-width: 960px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  background: #ffffff !important;
-  border-radius: var(--radius-lg) !important;
-  box-shadow: var(--card-shadow) !important;
-  border: 1px solid rgba(226, 232, 240, 0.85) !important;
-  padding: 56px 64px !important;
-  position: relative;
-  overflow: hidden;
-  font-size: 16px;
+  max-width: 860px !important;
+  margin: 32px auto 60px auto !important;
+  background: var(--color-bg-card) !important;
+  border-radius: 12px !important;
+  border: 1px solid var(--color-border) !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 6px 16px -4px rgba(15, 23, 42, 0.02) !important;
+  padding: 48px 56px !important;
+  font-size: 15.5px;
   line-height: 1.75;
 }
 
-/* Hide default primer H1 site title to spotlight our document title */
+/* Hide default primer H1 site title */
 h1:not([id]) {
   display: none !important;
 }
 
 /* --------------------------------------------------------------------------
-   Document Header & Subtitles
+   Document Header & Subtitle
    -------------------------------------------------------------------------- */
 h1#ghid-faq--informații-utile-din-grupul-de-suport-bii {
-  font-size: 2.25rem !important;
-  font-weight: 800 !important;
-  letter-spacing: -0.03em !important;
-  line-height: 1.25 !important;
+  font-size: 1.95rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  line-height: 1.3 !important;
+  color: var(--color-text-heading) !important;
   margin-top: 0 !important;
-  margin-bottom: 16px !important;
+  margin-bottom: 8px !important;
   padding-bottom: 0 !important;
   border-bottom: none !important;
-  background: linear-gradient(135deg, var(--color-slate-900) 0%, #0369a1 60%, #0f766e 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-
-  &::before {
-    content: "🏥 GHID MEDICAL & SUPORT PACIENȚI";
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    color: var(--color-primary);
-    background: var(--color-primary-light);
-    border: 1px solid #bae6fd;
-    padding: 4px 14px;
-    border-radius: 9999px;
-    width: fit-content;
-    -webkit-text-fill-color: var(--color-primary);
-  }
 }
 
 h2#boala-crohn-și-colită-ulcerativă {
-  font-size: 1.15rem !important;
-  font-weight: 600 !important;
-  color: var(--color-teal) !important;
-  background: var(--color-teal-light) !important;
-  border: 1px solid #99f6e4 !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  padding: 6px 16px !important;
-  border-radius: 9999px !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: var(--color-text-muted) !important;
+  border-bottom: none !important;
   margin-top: 0 !important;
   margin-bottom: 24px !important;
-  letter-spacing: -0.01em !important;
-
-  &::before {
-    content: "🎗️";
-    margin-right: 8px;
-    font-size: 0.95rem;
-  }
+  padding: 0 !important;
 }
 
 /* --------------------------------------------------------------------------
    Medical Disclaimer / Note Callout
    -------------------------------------------------------------------------- */
 .markdown-body blockquote {
-  background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%) !important;
-  border-left: 5px solid var(--color-primary) !important;
-  border-top: 1px solid #e0f2fe !important;
-  border-right: 1px solid #e0f2fe !important;
-  border-bottom: 1px solid #e0f2fe !important;
-  border-radius: var(--radius-md) !important;
-  padding: 20px 24px !important;
-  margin: 24px 0 32px 0 !important;
-  color: var(--color-slate-700) !important;
-  box-shadow: 0 4px 16px -2px rgba(2, 132, 199, 0.06) !important;
-  position: relative;
+  background: #f8fafc !important;
+  border-left: 3px solid var(--color-accent) !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-radius: 0 6px 6px 0 !important;
+  padding: 14px 18px !important;
+  margin: 20px 0 28px 0 !important;
+  color: var(--color-text-muted) !important;
 
   p {
     margin: 0 !important;
-    font-size: 0.96rem !important;
-    line-height: 1.7 !important;
+    font-size: 0.93rem !important;
+    line-height: 1.65 !important;
   }
 
   strong {
-    color: var(--color-primary-hover) !important;
-    font-weight: 700 !important;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-
-    &::before {
-      content: "ℹ️";
-      font-size: 1rem;
-    }
+    color: var(--color-text-heading) !important;
+    font-weight: 600 !important;
   }
 }
 
-/* Divider */
+/* Dividers */
 .markdown-body hr {
   height: 1px !important;
-  background: linear-gradient(90deg, transparent, var(--color-slate-200), transparent) !important;
+  background: var(--color-border) !important;
   border: none !important;
-  margin: 40px 0 !important;
+  margin: 36px 0 !important;
 }
 
 /* --------------------------------------------------------------------------
-   Cuprins (Table of Contents Grid)
+   Cuprins (Minimalist Table of Contents)
    -------------------------------------------------------------------------- */
 h2#cuprins {
-  font-size: 1.35rem !important;
+  font-size: 0.85rem !important;
   font-weight: 700 !important;
-  color: var(--color-slate-900) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  color: var(--color-text-muted) !important;
   border-bottom: none !important;
-  margin-top: 36px !important;
-  margin-bottom: 18px !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 10px;
-
-  &::before {
-    content: "📑";
-    font-size: 1.25rem;
-  }
+  margin-top: 28px !important;
+  margin-bottom: 12px !important;
+  padding: 0 !important;
 }
 
-/* The OL following #cuprins is rendered as an interactive card grid */
-h2#cuprins + ol {
+h2#cuprins+ol {
   list-style: none !important;
   counter-reset: toc-counter;
   padding-left: 0 !important;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 14px;
-  margin-bottom: 40px !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 6px;
+  margin-bottom: 32px !important;
 
-  > li {
+  >li {
     counter-increment: toc-counter;
-    background: var(--color-slate-50);
-    border: 1px solid var(--color-slate-200);
-    border-radius: var(--radius-md);
-    padding: 14px 18px;
+    background: transparent;
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 6px;
+    padding: 8px 12px;
     display: flex;
-    align-items: center;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+    align-items: baseline;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
     margin-top: 0 !important;
 
     &::before {
-      content: counter(toc-counter);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 28px;
-      height: 28px;
-      min-width: 28px;
-      border-radius: var(--radius-sm);
-      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));
-      color: #ffffff;
-      font-weight: 700;
-      font-size: 0.82rem;
-      margin-right: 14px;
-      box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
+      content: counter(toc-counter, decimal-leading-zero);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-text-muted);
+      margin-right: 10px;
+      font-variant-numeric: tabular-nums;
+      flex-shrink: 0;
     }
 
-    > a {
-      color: var(--color-slate-800) !important;
-      font-weight: 600 !important;
-      font-size: 0.95rem !important;
+    >a {
+      color: var(--color-text) !important;
+      font-weight: 500 !important;
+      font-size: 0.91rem !important;
       text-decoration: none !important;
       border-bottom: none !important;
       flex: 1;
-      transition: color 0.2s ease;
       line-height: 1.4;
+      transition: color 0.15s ease;
     }
 
     &:hover {
-      background: #ffffff;
-      border-color: #38bdf8;
-      transform: translateY(-2px);
-      box-shadow: var(--card-hover-shadow);
+      background: var(--color-bg-page);
+      border-color: var(--color-border);
 
-      > a {
-        color: var(--color-primary) !important;
+      &::before {
+        color: var(--color-accent);
+      }
+
+      >a {
+        color: var(--color-accent) !important;
       }
     }
   }
@@ -281,359 +199,241 @@ h2#cuprins + ol {
    Category Sections (H2: 1. Medicamente..., 2. Sănătatea...)
    -------------------------------------------------------------------------- */
 .markdown-body h2:not(#cuprins):not(#boala-crohn-și-colită-ulcerativă) {
-  font-size: 1.45rem !important;
+  font-size: 1.35rem !important;
   font-weight: 700 !important;
   letter-spacing: -0.02em !important;
-  color: var(--color-slate-900) !important;
-  background: linear-gradient(135deg, #f0fdfa 0%, #f8fafc 100%) !important;
-  border-left: 5px solid var(--color-teal) !important;
-  border-top: 1px solid var(--color-slate-200) !important;
-  border-right: 1px solid var(--color-slate-200) !important;
-  border-bottom: 1px solid var(--color-slate-200) !important;
-  border-radius: var(--radius-md) !important;
-  padding: 16px 22px !important;
-  margin-top: 56px !important;
-  margin-bottom: 24px !important;
-  box-shadow: 0 4px 12px -2px rgba(13, 148, 136, 0.08) !important;
-  display: flex !important;
-  align-items: center !important;
+  color: var(--color-text-heading) !important;
+  background: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  border-radius: 0 !important;
+  padding: 0 0 8px 0 !important;
+  margin-top: 48px !important;
+  margin-bottom: 20px !important;
+  box-shadow: none !important;
 }
 
 /* --------------------------------------------------------------------------
    FAQ Questions (H3: Q1, Q2, Q3...)
    -------------------------------------------------------------------------- */
 .markdown-body h3[id^="q"] {
-  font-size: 1.15rem !important;
-  font-weight: 700 !important;
-  color: var(--color-slate-900) !important;
-  background: #ffffff !important;
-  border-left: 4px solid var(--color-primary) !important;
-  border-top: 1px solid var(--color-slate-200) !important;
-  border-right: 1px solid var(--color-slate-200) !important;
-  border-bottom: 1px solid var(--color-slate-200) !important;
-  border-radius: var(--radius-md) !important;
-  padding: 14px 20px !important;
-  margin-top: 36px !important;
-  margin-bottom: 16px !important;
-  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.03) !important;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
   line-height: 1.5 !important;
+  color: var(--color-text-heading) !important;
+  background: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left: 2px solid var(--color-border) !important;
+  border-radius: 0 !important;
+  padding: 2px 0 2px 12px !important;
+  margin-top: 28px !important;
+  margin-bottom: 12px !important;
+  box-shadow: none !important;
+  transition: border-color 0.15s ease;
 
   &:hover {
-    border-left-color: var(--color-teal);
-    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06) !important;
-    transform: translateX(3px);
+    border-left-color: var(--color-accent) !important;
+    transform: none !important;
   }
 }
 
 /* --------------------------------------------------------------------------
-   Content, Lists, Answers & Typography
+   Content, Lists & Typography
    -------------------------------------------------------------------------- */
 .markdown-body p {
-  color: var(--color-slate-700);
+  color: var(--color-text);
   margin-top: 0;
-  margin-bottom: 16px;
-  line-height: 1.75;
+  margin-bottom: 14px;
+  line-height: 1.7;
 }
 
-.markdown-body ul, 
+.markdown-body ul,
 .markdown-body ol {
-  padding-left: 24px;
-  margin-top: 8px;
-  margin-bottom: 20px;
-
-  li {
-    margin-top: 6px;
-    margin-bottom: 6px;
-    line-height: 1.7;
-
-    &::marker {
-      color: var(--color-primary);
-    }
-  }
-}
-
-/* Nested lists (sub-details, examples) styled as clean inset boxes */
-.markdown-body ul ul, 
-.markdown-body ol ul {
-  background: var(--color-slate-50);
-  border: 1px solid var(--color-slate-200);
-  border-left: 3px solid #cbd5e1;
-  border-radius: var(--radius-sm);
-  padding: 12px 18px 12px 34px !important;
-  margin-top: 10px !important;
-  margin-bottom: 12px !important;
+  padding-left: 20px;
+  margin-top: 6px;
+  margin-bottom: 18px;
 
   li {
     margin-top: 4px;
     margin-bottom: 4px;
-    font-size: 0.95rem;
-
-    &::marker {
-      color: var(--color-teal);
-    }
+    line-height: 1.65;
   }
 }
 
-/* Strong / Emphasis Elements */
+/* Nested lists: clean indentation with light left border */
+.markdown-body ul ul,
+.markdown-body ol ul {
+  background: none !important;
+  border: none !important;
+  border-left: 1px solid var(--color-border) !important;
+  border-radius: 0 !important;
+  padding: 4px 0 4px 16px !important;
+  margin-top: 6px !important;
+  margin-bottom: 8px !important;
+
+  li {
+    font-size: 0.94rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+}
+
 .markdown-body strong {
-  color: var(--color-slate-900);
-  font-weight: 700;
+  color: var(--color-text-heading);
+  font-weight: 600;
 }
 
 /* Links */
 .markdown-body a {
-  color: var(--color-primary);
-  text-decoration: underline;
-  text-decoration-color: rgba(2, 132, 199, 0.35);
-  text-underline-offset: 3px;
+  color: var(--color-accent);
+  text-decoration: none;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: color 0.15s ease;
 
   &:hover {
-    color: var(--color-primary-hover);
-    text-decoration-color: var(--color-primary-hover);
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 }
 
-/* AnchorJS link icons */
+/* AnchorJS links */
 .markdown-body .anchorjs-link {
-  color: #94a3b8 !important;
+  color: var(--color-text-muted) !important;
   text-decoration: none !important;
-  border-bottom: none !important;
   opacity: 0;
-  transition: opacity 0.2s ease, color 0.2s ease !important;
+  transition: opacity 0.15s ease;
 }
 
 .markdown-body h1:hover .anchorjs-link,
 .markdown-body h2:hover .anchorjs-link,
 .markdown-body h3:hover .anchorjs-link {
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 .markdown-body .anchorjs-link:hover {
-  color: var(--color-primary) !important;
   opacity: 1 !important;
+  color: var(--color-accent) !important;
 }
 
-/* Code / Monospace */
+/* Code */
 .markdown-body code {
-  font-family: 'JetBrains Mono', monospace !important;
-  background-color: var(--color-slate-100);
-  border: 1px solid var(--color-slate-200);
-  border-radius: 6px;
-  padding: 2px 6px;
+  background-color: var(--color-border-subtle);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 2px 5px;
   font-size: 0.88em;
-  color: #0369a1;
+  color: var(--color-text-heading);
 }
 
 /* --------------------------------------------------------------------------
    Responsive Design
    -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
-  body {
-    background: #f8fafc;
-  }
-
   .markdown-body {
-    padding: 28px 20px !important;
-    margin-top: 12px !important;
-    margin-bottom: 24px !important;
-    border-radius: var(--radius-md) !important;
+    padding: 24px 18px !important;
+    margin: 12px auto 32px auto !important;
+    border-radius: 8px !important;
     font-size: 15px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05) !important;
   }
 
   h1#ghid-faq--informații-utile-din-grupul-de-suport-bii {
-    font-size: 1.65rem !important;
-    line-height: 1.3 !important;
+    font-size: 1.55rem !important;
   }
 
-  h2#boala-crohn-și-colită-ulcerativă {
-    font-size: 0.98rem !important;
-    padding: 5px 12px !important;
-  }
-
-  h2#cuprins + ol {
+  h2#cuprins+ol {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 4px;
   }
 
   .markdown-body h2:not(#cuprins):not(#boala-crohn-și-colită-ulcerativă) {
-    font-size: 1.22rem !important;
-    padding: 12px 16px !important;
-    margin-top: 38px !important;
-    margin-bottom: 18px !important;
+    font-size: 1.2rem !important;
+    margin-top: 36px !important;
   }
 
   .markdown-body h3[id^="q"] {
-    font-size: 1.05rem !important;
-    padding: 12px 14px !important;
-    margin-top: 26px !important;
-  }
-
-  .markdown-body ul ul, 
-  .markdown-body ol ul {
-    padding-left: 24px !important;
+    font-size: 1rem !important;
+    margin-top: 22px !important;
   }
 }
 
 /* --------------------------------------------------------------------------
-   Dark Mode Support (Comfortable for night reading)
+   Dark Mode Support
    -------------------------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #cbd5e1;
+    --color-text-muted: #94a3b8;
+    --color-text-heading: #f8fafc;
+    --color-accent: #38bdf8;
+    --color-accent-hover: #7dd3fc;
+    --color-bg-page: #0f172a;
+    --color-bg-card: #1e293b;
+    --color-border: #334155;
+    --color-border-subtle: #1e293b;
+  }
+
   body {
-    background: #090d16;
-    color: #cbd5e1;
+    background-color: var(--color-bg-page);
+    color: var(--color-text);
   }
 
   .markdown-body {
-    background: #0f172a !important;
-    border-color: #1e293b !important;
-    box-shadow: 0 16px 36px -6px rgba(0, 0, 0, 0.5) !important;
-    color: #cbd5e1 !important;
-  }
-
-  h1#ghid-faq--informații-utile-din-grupul-de-suport-bii {
-    background: linear-gradient(135deg, #ffffff 0%, #38bdf8 60%, #2dd4bf 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    &::before {
-      background: #0c4a6e;
-      border-color: #0369a1;
-      color: #38bdf8;
-      -webkit-text-fill-color: #38bdf8;
-    }
-  }
-
-  h2#boala-crohn-și-colită-ulcerativă {
-    background: #134e4a !important;
-    border-color: #0f766e !important;
-    color: #5eead4 !important;
+    background: var(--color-bg-card) !important;
+    border-color: var(--color-border) !important;
+    box-shadow: none !important;
   }
 
   .markdown-body blockquote {
-    background: #0c1a2e !important;
-    border-color: #1e3a5f !important;
-    border-left-color: #38bdf8 !important;
-    color: #94a3b8 !important;
-
-    strong {
-      color: #38bdf8 !important;
-    }
+    background: #172554 !important;
+    border-left-color: var(--color-accent) !important;
+    color: #cbd5e1 !important;
   }
 
-  .markdown-body hr {
-    background: linear-gradient(90deg, transparent, #334155, transparent) !important;
-  }
-
-  h2#cuprins {
-    color: #f8fafc !important;
-  }
-
-  h2#cuprins + ol > li {
-    background: #1e293b;
+  h2#cuprins+ol>li {
     border-color: #334155;
 
-    > a {
-      color: #f1f5f9 !important;
+    >a {
+      color: var(--color-text) !important;
     }
 
     &:hover {
-      background: #243248;
-      border-color: #38bdf8;
+      background: #273549;
+      border-color: #475569;
 
-      > a {
-        color: #38bdf8 !important;
+      >a {
+        color: var(--color-accent) !important;
       }
     }
   }
 
-  .markdown-body h2:not(#cuprins):not(#boala-crohn-și-colită-ulcerativă) {
-    background: linear-gradient(135deg, #132b3a 0%, #1e293b 100%) !important;
-    border-color: #334155 !important;
-    border-left-color: #2dd4bf !important;
-    color: #f8fafc !important;
-  }
-
-  .markdown-body h3[id^="q"] {
-    background: #1e293b !important;
-    border-color: #334155 !important;
-    border-left-color: #38bdf8 !important;
-    color: #f8fafc !important;
-
-    &:hover {
-      border-left-color: #2dd4bf;
-    }
-  }
-
-  .markdown-body p,
-  .markdown-body li {
-    color: #cbd5e1;
-  }
-
-  .markdown-body ul ul,
-  .markdown-body ol ul {
-    background: #151f30;
-    border-color: #273549;
-    border-left-color: #475569;
-  }
-
-  .markdown-body strong {
-    color: #f8fafc;
-  }
-
-  .markdown-body a {
-    color: #38bdf8;
-    text-decoration-color: rgba(56, 189, 248, 0.4);
-
-    &:hover {
-      color: #7dd3fc;
-      text-decoration-color: #7dd3fc;
-    }
-  }
-
   .markdown-body code {
-    background-color: #1e293b;
+    background-color: #0f172a;
     border-color: #334155;
-    color: #38bdf8;
+    color: var(--color-accent);
   }
 }
 
 /* --------------------------------------------------------------------------
-   Print Friendly Stylesheet
+   Print
    -------------------------------------------------------------------------- */
 @media print {
   body {
     background: #ffffff !important;
   }
 
-  body::before {
-    display: none !important;
-  }
-
   .markdown-body {
-    box-shadow: none !important;
     border: none !important;
+    box-shadow: none !important;
     padding: 0 !important;
     max-width: 100% !important;
   }
 
-  h2#cuprins + ol {
+  h2#cuprins+ol {
     display: block !important;
-
-    > li {
-      box-shadow: none !important;
-      border: none !important;
-      background: none !important;
-      padding: 4px 0 !important;
-    }
-  }
-
-  .markdown-body h2,
-  .markdown-body h3 {
-    box-shadow: none !important;
-    background: none !important;
   }
 }
