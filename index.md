@@ -106,6 +106,7 @@
 
 ### Q13: Ce probiotice și suplimente ajută mucoasa intestinală?
 * **Probiotice/Prebiotice:** VSL#3, Vivomixx, MegaSporeBiotic, Equbiota, Eubiotic Forte. Se administrează conform prospectului (dimineața pe stomacul gol sau la masă/seara) și se recomandă rotirea tulpinilor la câteva luni.
+  * În general, studiile clinice arată că probioticele sunt mult mai eficiente în gestionarea Colitei Ulcerative decât în boala Crohn, unde rezultatele sunt adesea neconcludente.
 * **Fitoterapie antidiareică:** Eridiarom (concentrat natural pe bază de afine, util pentru reducerea episoadelor diareice prin efect astringent).
 * **Butirat / Butirin (Intesta, Dibuzin):** Acid gras ce hrănește colonocitele, reduce inflamația și ajută la legarea scaunului.
 * **L-Glutamină:** Ajută la repararea barierei intestinale și scade permeabilitatea mucoasei (se ia cu ~20 min înainte de masă).
