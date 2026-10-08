@@ -54,8 +54,9 @@ body {
   max-width: 820px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  padding-left: 32px !important;
-  padding-right: 32px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box !important;
 }
 
 .markdown-body {
@@ -63,10 +64,14 @@ body {
   background-color: transparent !important;
   border: none !important;
   box-shadow: none !important;
-  padding: 48px 0 96px 0 !important;
+  padding-top: 48px !important;
+  padding-bottom: 96px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
   font-size: 16px;
   line-height: 1.75;
   color: var(--color-text-main) !important;
+  box-sizing: border-box !important;
 }
 
 /* Hide default primer H1 site title */
@@ -326,12 +331,15 @@ h2#cuprins + ol {
    -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
   .container-lg {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
   }
 
   .markdown-body {
-    padding: 24px 0 64px 0 !important;
+    padding-top: 24px !important;
+    padding-bottom: 64px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
     font-size: 15.5px;
   }
 
