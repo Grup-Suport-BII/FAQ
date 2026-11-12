@@ -79,6 +79,7 @@
 
 ### Q3: Ce diete speciale sunt utilizate în BII?
 * **CDED (Crohn's Disease Exclusion Diet):** Dietă de eliminare pe faze pentru boala Crohn, combinată adesea cu nutriție enterală (Modulen IBD).
+  * Opțiune de achiziție cu preț redus: [modulen-ibd 400g](https://www.1001patika.hu/modulen-ibd-400-g.html)
 * **SCD (Specific Carbohydrate Diet):** Limitează carbohidrații complecși (cereale, amidon, zahăr rafinat); este restrictivă, necesită atenție la menținerea greutății și nu este recomandată decât la indicația medicului.
   * Rețete SCD:
     * [everylastbite.com](https://www.everylastbite.com/by-diet/specific-carbohydrate-diet/)
